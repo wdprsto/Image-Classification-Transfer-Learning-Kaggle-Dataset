@@ -43,21 +43,21 @@ Dalam mengembangkan model CNN, kita perlu berpatokan pada building block CNN. Ad
 Pada percobaan ini, dibuat 3 model CNN dengan arsitektur yang beragam, sebagai berikut.
 
 1. Arsitektur Model 1
-   ![](assets/cnn1.png)
+   ![](assets/cnn1.PNG)
    
    Nilai evaluasi untuk arsitektur 1 ini, yaitu:
    Test loss: 0.7480378150939941 
    Test acc: 0.753000020980835
 
 2. Arsitektur Model 2
-   ![](assets/cnn2.png)
+   ![](assets/cnn2.PNG)
    
    Nilai evaluasi untuk arsitektur 2 ini, yaitu:
    Test loss: 0.8672617077827454 
    Test acc: 0.7106666564941406
 
 3. Arsitektur Model 3
-   ![](assets/cnn3.png)
+   ![](assets/cnn3.PNG)
    
    Nilai evaluasi untuk arsitektur 3 ini, yaitu:
    Test loss: 0.2766130864620209 
