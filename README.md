@@ -30,8 +30,6 @@ Dataset dibagi dengan rincian sebagai berikut.
 
 Citra juga melalui tahapan preproses data menggunakan ImageDataGenerator agar siap untuk di train. Objek datagen berfungsi untuk memproses data sebelum di load. Selain itu, penggunaan fungsi flow_from_directory akan membuat data ter-label-kan berdasarkan nama folder di mana ia tersimpan.
 
-
-
 ## Hasil Pengembangan Model CNN
 
 Dalam mengembangkan model CNN, kita perlu berpatokan pada building block CNN. Ada tiga tipe lapisan pada CNN
@@ -43,25 +41,37 @@ Dalam mengembangkan model CNN, kita perlu berpatokan pada building block CNN. Ad
 Pada percobaan ini, dibuat 3 model CNN dengan arsitektur yang beragam, sebagai berikut.
 
 1. Arsitektur Model 1
+   
+   
    ![](assets/cnn1.PNG)
    
+   ```textile
    Nilai evaluasi untuk arsitektur 1 ini, yaitu:
    Test loss: 0.7480378150939941 
    Test acc: 0.753000020980835
+   ```
 
 2. Arsitektur Model 2
+   
+   
    ![](assets/cnn2.PNG)
    
+   ```textile
    Nilai evaluasi untuk arsitektur 2 ini, yaitu:
    Test loss: 0.8672617077827454 
    Test acc: 0.7106666564941406
+   ```
 
 3. Arsitektur Model 3
+   
+   
    ![](assets/cnn3.PNG)
    
+   ```textile
    Nilai evaluasi untuk arsitektur 3 ini, yaitu:
    Test loss: 0.2766130864620209 
    Test acc: 0.9150000214576721
+   ```
 
 model yang memiliki performa terbaik ialah Model 3 dengan nilai akurasi 0.917 untuk training dan 0.915 untuk testing. Arsitektur dari model ini, yaitu 
 
@@ -82,8 +92,6 @@ Fully Connected Layer
 - Dropout 0.3
 - Dense 15
 ```
-
-
 
 ## Hasil Pengembangan Model Transfer Learning
 
